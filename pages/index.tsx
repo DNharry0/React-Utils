@@ -8,7 +8,7 @@ const inter = Inter({ subsets: ['latin'] })
 export default function Home() {
   return (
     <>
-      <div>안녕 react </div>
+      <div>마스터로 커밋 </div>
     </>
   )
 }
