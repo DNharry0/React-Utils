@@ -6,7 +6,7 @@ const Index = () => {
     return (
     <>
     <Wrapper>
-        test
+        testd
     </Wrapper>
     </>
     );
