@@ -6,7 +6,7 @@ const Layout:React.FC<LayoutProps> = ({ children }) => {
     return (
         <>
         <Wrapper>
-            <h1>Layout</h1>
+            {children}
         </Wrapper>
         </>
     );
@@ -17,5 +17,4 @@ const Wrapper = styled.div`
     position: relative;
     width: 100%;
     height: 100%;
-    background-color: red;
 `;

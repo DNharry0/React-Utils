@@ -1,7 +1,7 @@
 import React, { useState, useRef, useEffect } from 'react';
 import styled from '@emotion/styled';
 // import dropDown from '../../public/images/dropDown.svg';
-import dropDown from '../../public/images/dropDown.svg';
+// import dropDown from '../../public/images/dropDown.svg';
 import Image from 'next/image';
 
 interface SelectBoxProps {
@@ -47,13 +47,13 @@ const SelectBox: React.FC<SelectBoxProps> = ({ options, onChange, value }) => {
     <SelectContainer ref={containerRef}>
       <SelectedValue onClick={handleToggleDropdown}>
         {options.find((option) => option.value === value)?.label || '선택'}
-        <Image
+        {/* <Image
           src={dropDown}
           alt="dropDown"
           width={24}
           height={24}
           className={`dropDown ${isOpen ? 'rotate' : ''}`}
-        />
+        /> */}
       </SelectedValue>
       {isOpen && (
         <OptionsContainer>
