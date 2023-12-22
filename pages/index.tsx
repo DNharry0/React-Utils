@@ -11,16 +11,16 @@ export default function Home() {
   return (
     <>
       <SelectBox
-            options={[
-              { label: 'test1', value: 'text1' },
-              { label: 'test2', value: 'text2' },
-              { label: 'test3', value: 'text3' },
-            ]}
-            value={selected || ''}
-            onChange={(value) => {
-              setSelected(value);
-            }}
-          />
+        options={[
+          { label: 'test1', value: 'text1' },
+          { label: 'test2', value: 'text2' },
+          { label: 'test3', value: 'text3' },
+        ]}
+        value={selected || ''}
+        onChange={(value) => {
+          setSelected(value);
+        }}
+      />
     </>
   )
 }
