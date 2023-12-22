@@ -10,9 +10,6 @@ export default function Home() {
   const [selected, setSelected] = useState<string | undefined>('text1');
   return (
     <>
-      <div>마스터로 커밋 </div>
-
-      
       <SelectBox
             options={[
               { label: 'test1', value: 'text1' },
